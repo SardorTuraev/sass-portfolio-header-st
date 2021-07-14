@@ -135,7 +135,7 @@ img {
   align-items: center;
 }
 
-.nav__item:not(:last-child) {
+.nav__item::not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -221,7 +221,7 @@ img {
     align-items: center;
   }
 
-  .nav__item:not(:last-child) {
+  .nav__item::not(:last-child) {
     margin-bottom: 0px;
     margin-right: 42px;
   }
